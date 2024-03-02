@@ -87,7 +87,7 @@ function BusinessAreas() {
                             </div>
                             <div className="paratwo p-5 mb-4">
                                 <div className="overview-part2 p-1" data-aos="fade-left">
-                                    We carefully identify gaps in our markets and commit ourselves to get the products to market places ahead of the competition giving huge competitive advantage of 1st to market. Our products have the hallmark of technology-based differentiation and cover the full range of dosage forms, including tablets, capsules, injectables, inhalers, ointments, creams and liquids.
+                                Ethicalcure is dedicated to revolutionizing healthcare through innovative solutions. Our team is committed to discovering new treatments and therapies to address unmet medical needs. From research and development to manufacturing and distribution, we maintain the highest standards of quality and compliance. With a focus on patient well-being, we are committed to making a meaningful impact on global health
                                 </div>
                             </div>
                         </div>
