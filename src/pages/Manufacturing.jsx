@@ -1,15 +1,20 @@
 import React from 'react'
 import "./Home.css";
+import BreadCrumb from '../components/BreadCrumb';
+
 const Manufacturing = () => {
     return (
-        <div className=''>
-            <section className="innerBanner">
+        <>
+            <BreadCrumb page="Manufacturing" />
+
+            {/* <div className=''>
+                <section className="innerBanner">
                 <picture>
                     <img
                         className="responsive-image"
                         src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
                         alt="Business Areas"
-                        style={{ maxWidth: '100%' }}
+                        style={{ maxWidth: '100%'}}
                     />
 
                 </picture>
@@ -24,11 +29,11 @@ const Manufacturing = () => {
                     </div>
                 </div>
             </section>
-            {/* <div className='Manufacturing-head'>   
-         <h1 className='manufacturing-heading'>Manufacturing</h1>
-     </div> */}
+            <div className='Manufacturing-head'>
+                <h1 className='manufacturing-heading'>Manufacturing</h1>
+            </div> */}
 
-            <div className="container-fluid p-5 hero-header  mt-4">
+            <div className="container-fluid ">
                 <div >
                     <div className=" g-5 align-items-center slider-img">
                         <div className=" " >
@@ -50,7 +55,7 @@ const Manufacturing = () => {
                     </div>
                 </div>
             </div>
-            
+
             <div className=" p-5">
                 <div style={{ background: "#AFEEEE", paddingLeft: "20px", paddingTop: "30px", paddingBottom: "30px", borderLeft: "4px solid green" }}>
                     <div className="  wow fadeIn p-2" data-wow-delay="0.5s" style={{ fontSize: "19px", fontWeight: "500" }}>
@@ -58,11 +63,7 @@ const Manufacturing = () => {
                     </div>
                 </div>
             </div>
-
-
-
-
-        </div>
+        </>
     )
 }
 

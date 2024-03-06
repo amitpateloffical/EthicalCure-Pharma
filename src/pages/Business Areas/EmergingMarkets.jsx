@@ -4,6 +4,7 @@ import { useEffect, useRef, } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../../components/Footer';
+import BreadCrumb from '../../components/BreadCrumb';
 
 function EmergingMarkets() {
     const listRefs = useRef([]);
@@ -42,25 +43,8 @@ function EmergingMarkets() {
 
     return (
         <>
+            <BreadCrumb page="Emerging Markets - Branded Generics" />
             <div className="BusinessArea">
-                <section className="innerBanner">
-                    <picture>
-                        <img src="https://ajantapharma.com/assets/frontend/images/inner_banner/emerging_markets_branded_generics.jpg" style={{ maxWidth: '100%' }} />
-
-                    </picture>
-
-                    <div className="container">
-                        <div className="innerpageTitle">
-                            <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">EMERGING MARKETS - BRANDED GENERICS
-                                    </h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <div className='businesspage'>
                     <div className="row">
                         <div className="linkerItem col-md-3">
@@ -112,7 +96,6 @@ function EmergingMarkets() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

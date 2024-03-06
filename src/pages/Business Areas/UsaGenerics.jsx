@@ -4,6 +4,7 @@ import AOS from "aos";
 import "aos/dist/aos.css";
 import { Link } from 'react-router-dom';
 import Footer from '../../components/Footer';
+import BreadCrumb from '../../components/BreadCrumb';
 
 function UsaGenerics() {
     const listRefs = useRef([]);
@@ -41,22 +42,9 @@ function UsaGenerics() {
     }, []);
     return (
         <>
-            <div className="BusinessArea">
-                <section className="innerBanner">
-                    <picture>
-                        <img src="https://ajantapharma.com/assets/frontend/images/inner_banner/businessareas_usa_generics.jpg" style={{ maxWidth: '100%' }} />
-                    </picture>
-                    <div className="container">
-                        <div className="innerpageTitle">
-                            <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">USA - GENERICS</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+              <BreadCrumb page="USA - GENERICS" />
 
+            <div className="BusinessArea">
                 <div className='businesspage'>
                     <div className="row">
                         <div className="linkerItem col-md-3">
@@ -90,7 +78,6 @@ function UsaGenerics() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

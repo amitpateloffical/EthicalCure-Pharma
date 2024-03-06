@@ -42,9 +42,9 @@ function Contact() {
             <BreadCrumb page="Contact Us" />
 
             {/* <!-- Contact Start --> */}
-            <div className="container-fluid section2  py-5">
+            <div className="container-fluid">
                 <div className="container">
-                    <div className="row g-5 align-items-center d-flex">
+                    <div className="row align-items-center d-flex">
                         <div className="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
                             <div className="abouts" data-aos="fade-right">
                                 <img className="img-fluid" src="/phone.jpeg" />
@@ -57,9 +57,8 @@ function Contact() {
                                 </div>
                                 <div className="row justify-content-center">
                                     <div className="col-lg-7">
-                                        <div className="wow fadeIn" data-wow-delay="0.3s">
                                             <form>
-                                                <div className="row g-3">
+                                                <div className="row g-1">
                                                     <div className="col-md-6">
                                                             <input type="text" className="form-control"  id="contact-form-border" placeholder="Your Name" />
                                                     </div>
@@ -77,7 +76,6 @@ function Contact() {
                                                     </div>
                                                 </div>
                                             </form>
-                                        </div>
                                     </div>
                                 </div>
                             </div>

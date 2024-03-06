@@ -4,6 +4,7 @@ import "aos/dist/aos.css";
 import './BusinessAreas.css';
 import { useEffect, useRef } from 'react';
 import Footer from '../../components/Footer';
+import BreadCrumb from '../../components/BreadCrumb';
 
 function IndiaBranded() {
     const listRefs = useRef([]);
@@ -41,23 +42,9 @@ function IndiaBranded() {
     }, []);
     return (
         <>
-            <div className="BusinessArea">
-                <section className="innerBanner">
-                    <picture>
-                        <img src="https://ajantapharma.com/assets/frontend/images/inner_banner/businessareas_indiabranded.jpg"
-                            style={{ maxWidth: '100%' }} />
-                    </picture>
-                    <div className="container">
-                        <div className="innerpageTitle">
-                            <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">INDIA - BRANDED GENERICS</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+              <BreadCrumb page="INDIA - BRANDED GENERICS" />
 
+            <div className="BusinessArea">
                 <div className='businesspage'>
                     <div className="row">
                         <div className="linkerItem col-md-3">
@@ -120,7 +107,6 @@ function IndiaBranded() {
                     </div>
                 </div>
             </div>
-            <Footer />
         </>
     )
 }

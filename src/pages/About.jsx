@@ -49,24 +49,20 @@ function About() {
 
       {/* <!-- About Start --> */}
 
-      <div className="container-fluid   py-3">
-      <div id='header'>
-        <h1 id='header-h1'>About us</h1>
-        </div>
-       
+      <div className="container-fluid py-3" data-aos="zoom-in">
         <div className="container py-4">
           <div className="row g-2 align-items-center">
             <div className="col-lg-12 wow fadeIn" data-wow-delay="0.5s">
-              <h3 className=" text-center fs-2 pt-3">
-              Ethicalcure Pharmaceuticals: Advancing Healthcare through Innovation and Excellence
+              <h3 className="text-center pt-3">
+                Ethicalcure Pharmaceuticals: Advancing Healthcare through Innovation and Excellence
               </h3>
               <div className="paragraph_container ">
-                <p className="paragraph fs-5 pt-2">
-                Ethicalcure Pharmaceuticals stands as a beacon of innovation and excellence in the 
-                realm of healthcare. With a steadfast commitment to advancing medical science 
-                and improving patient outcomes, Ethicalcure spearheads groundbreaking research and development 
-                initiatives. By harnessing cutting-edge technologies and leveraging top-tier expertise, the company 
-                pioneers novel treatments for a myriad of diseases and medical conditions.
+                <p className="paragraph pt-2">
+                  Ethicalcure Pharmaceuticals stands as a beacon of innovation and excellence in the
+                  realm of healthcare. With a steadfast commitment to advancing medical science
+                  and improving patient outcomes, Ethicalcure spearheads groundbreaking research and development
+                  initiatives. By harnessing cutting-edge technologies and leveraging top-tier expertise, the company
+                  pioneers novel treatments for a myriad of diseases and medical conditions.
                 </p>
               </div>
               <p className="mb-4"></p>
@@ -74,9 +70,9 @@ function About() {
           </div>
         </div>
       </div>
-      
-      <div className="container-fluid section2  py-5">
-        <div className="container">
+
+      <div className="container-fluid section2  py-5 p-5">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div
               className="col-lg-6 wow fadeIn"
@@ -90,8 +86,7 @@ function About() {
             <div
               className="col-lg-6 wow fadeIn"
               // data-aos="fade-left"
-              data-wow-delay="0.5s"
-            >
+              data-wow-delay="0.5s">
               <p className="mb-4"></p>
 
               <div className="content_container">
@@ -116,16 +111,16 @@ function About() {
                   <li className="list-group-item" data-aos="fade-left">
                     <b> Industry Collaboration: </b>Actively collaborates with healthcare professionals and organizations to enhance healthcare outcomes.
                   </li>
-                   
+
                 </ul>
               </div>
             </div>
           </div>
         </div>
       </div>
-<div></div>
-      <div className="container-fluid py-5">
-        <div className="container">
+
+      <div className="container-fluid py-5 p-5">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               <h3 className="mb-4" data-aos="fade-right">
@@ -138,7 +133,7 @@ function About() {
                 >
                   <li className="list-group-item" data-aos="fade-right">
                     <b>   Commitment to Excellence: </b>
-                   Dedication to excellence in every aspect of healthcare provision.
+                    Dedication to excellence in every aspect of healthcare provision.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
                     <b>Visionary Leadership:</b> Guided by visionary leadership committed to transforming healthcare.
@@ -157,9 +152,7 @@ function About() {
                 data-aos="fade-right"
               >
                 <h5 className="ps_paragraph">
-                Contact Ethicalcure Pharmaceuticals today to explore our innovative healthcare solutions.
-
-
+                  Contact Ethicalcure Pharmaceuticals today to explore our innovative healthcare solutions.
                 </h5>
               </div>
             </div>
@@ -178,8 +171,8 @@ function About() {
       </div>
 
       {/* <!-- About End --> */}
-      <div className="container-fluid section2 py-5">
-        <div className="container">
+      <div className="container-fluid section2 py-5 p-5">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div
               className="col-lg-6 wow fadeIn "
@@ -197,7 +190,7 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                At Ethicalcure Pharmaceuticals, our commitment to quality is paramount. We adhere to stringent quality policies to ensure the safety and efficacy of our products. Through rigorous testing, continuous improvement, and adherence to regulatory standards, we strive to deliver excellence in every aspect of our operations.
+                  At Ethicalcure Pharmaceuticals, our commitment to quality is paramount. We adhere to stringent quality policies to ensure the safety and efficacy of our products. Through rigorous testing, continuous improvement, and adherence to regulatory standards, we strive to deliver excellence in every aspect of our operations.
                 </p>
               </div>
               {" "}
@@ -229,8 +222,8 @@ function About() {
         </div>
       </div>
 
-      <div className="container-fluid py-5">
-        <div className="container">
+      <div className="container-fluid py-5 p-5">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div className="col-lg-6 wow fadeIn" data-wow-delay="0.5s">
               {/* <div className="btn btn-sm border rounded-pill text-primary px-3 mb-3">About Us</div> */}
@@ -243,23 +236,23 @@ function About() {
                   ref={(ref) => listRefs.current.push(ref)}
                 >
                   <li className="list-group-item" data-aos="fade-right">
-                  Allocate resources towards research and development efforts to foster innovation and develop groundbreaking healthcare solutions.
+                    Allocate resources towards research and development efforts to foster innovation and develop groundbreaking healthcare solutions.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                  Establish robust quality management systems to ensure adherence to the highest standards of quality and safety in all pharmaceutical products and processes.
+                    Establish robust quality management systems to ensure adherence to the highest standards of quality and safety in all pharmaceutical products and processes.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                  Promote a culture of continuous improvement within the organization, encouraging employees to identify areas for enhancement and implement innovative solutions.
+                    Promote a culture of continuous improvement within the organization, encouraging employees to identify areas for enhancement and implement innovative solutions.
                   </li>
 
                   <li className="list-group-item" data-aos="fade-right">
-                  Strengthen relationships with customers by actively seeking feedback, understanding their needs, and tailoring products and services to meet their expectations.
+                    Strengthen relationships with customers by actively seeking feedback, understanding their needs, and tailoring products and services to meet their expectations.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                  Collaborate with healthcare professionals, research institutions, and industry partners to drive innovation, share knowledge, and advance healthcare outcomes.
+                    Collaborate with healthcare professionals, research institutions, and industry partners to drive innovation, share knowledge, and advance healthcare outcomes.
                   </li>
                   <li className="list-group-item" data-aos="fade-right">
-                  Integrate sustainable practices into operations, including reducing waste, minimizing environmental impact, and promoting eco-friendly initiatives.
+                    Integrate sustainable practices into operations, including reducing waste, minimizing environmental impact, and promoting eco-friendly initiatives.
                   </li>
                 </ul>
               </div>
@@ -288,8 +281,8 @@ function About() {
         </div>
       </div>
 
-      <div className="container-fluid section2 py-5">
-        <div className="container">
+      <div className="container-fluid section2 py-5 p-5">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div
               className="col-lg-6 wow fadeIn"
@@ -307,7 +300,7 @@ function About() {
               </h4>
               <div className="paragraph_container" data-aos="fade-left">
                 <p className="paragraph">
-                "At Ethicalcure Pharmaceuticals, our mission is to pioneer innovative healthcare solutions that enhance patient well-being and advance medical science. With a commitment to excellence in healthcare services and products, we strive to deliver cutting-edge research, adhere to the highest standards of quality assurance.
+                  "At Ethicalcure Pharmaceuticals, our mission is to pioneer innovative healthcare solutions that enhance patient well-being and advance medical science. With a commitment to excellence in healthcare services and products, we strive to deliver cutting-edge research, adhere to the highest standards of quality assurance.
                 </p>
               </div>
               <h3 className="mb-4" data-aos="fade-left">
@@ -350,7 +343,7 @@ function About() {
         </div>
       </div>
 
-     
+
     </>
   );
 }

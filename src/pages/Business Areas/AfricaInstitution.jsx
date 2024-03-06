@@ -3,6 +3,7 @@ import { useEffect, useRef, } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../../components/Footer';
+import BreadCrumb from '../../components/BreadCrumb';
 
 function AfricaInstitution() {
     const listRefs = useRef([]);
@@ -40,25 +41,10 @@ function AfricaInstitution() {
     }, []);
     return (
         <>
-            <div className="BusinessArea">
-                <section className="innerBanner">
-                    <picture>
-                        <img src="https://ajantapharma.com/assets/frontend/images/inner_banner/businessareas_indiabranded.jpg"
-                            style={{ maxWidth: '100%' }} />
-                    </picture>
-                    <div className="container">
-                        <div className="innerpageTitle">
-                            <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">AFRICA - INSTITUSTION BUSINESS</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
+              <BreadCrumb page="AFRICA-INSTITUSTION BUSINESS" />
 
+            <div className="BusinessArea">
             </div>
-            <Footer />
         </>
     )
 }

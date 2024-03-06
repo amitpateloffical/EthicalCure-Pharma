@@ -4,6 +4,7 @@ import { useEffect, useRef, } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import Footer from '../../components/Footer';
+import BreadCrumb from '../../components/BreadCrumb';
 
 function BusinessAreas() {
     const listRefs = useRef([]);
@@ -41,29 +42,8 @@ function BusinessAreas() {
     }, []);
     return (
         <>
+            <BreadCrumb page="Business Areas" />
             <div className="BusinessArea">
-                <section className="innerBanner">
-                    <picture>
-                        <img
-                            className="responsive-image"
-                            src="https://ajantapharma.com/assets/frontend/images/inner_banner/business_areas.jpg"
-                            alt="Business Areas"
-                            style={{ maxWidth: '100%' }}
-                        />
-
-                    </picture>
-
-                    <div className="container">
-                        <div className="innerpageTitle">
-                            <div className="row h-100">
-                                <div className="col-md-6 align-self-center aos-init aos-animate" >
-                                    <h1 data-aos="fade-right">Business Areas</h1>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-
                 <div className='businesspage'>
                     <div className="row">
                         <div className="col-md-3">
@@ -87,15 +67,13 @@ function BusinessAreas() {
                             </div>
                             <div className="paratwo p-5 mb-4">
                                 <div className="overview-part2 p-1" data-aos="fade-left">
-                                Ethicalcure is dedicated to revolutionizing healthcare through innovative solutions. Our team is committed to discovering new treatments and therapies to address unmet medical needs. From research and development to manufacturing and distribution, we maintain the highest standards of quality and compliance. With a focus on patient well-being, we are committed to making a meaningful impact on global health
+                                    Ethicalcure is dedicated to revolutionizing healthcare through innovative solutions. Our team is committed to discovering new treatments and therapies to address unmet medical needs. From research and development to manufacturing and distribution, we maintain the highest standards of quality and compliance. With a focus on patient well-being, we are committed to making a meaningful impact on global health
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </div>
-            {/* <Footer /> */}
-
         </>
     )
 }

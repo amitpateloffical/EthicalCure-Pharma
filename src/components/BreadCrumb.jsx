@@ -4,7 +4,7 @@ function BreadCrumb(_props) {
   return (
     <>
       {/* <!-- Hero Start --> */}
-      {/* <div className="container-fluid pt-5  hero-header">
+      <div className="container-fluid pt-5">
                 <div className="container pt-5">
                     <div className="row g-5 pt-5">
                         <div className="col-lg-6 align-self-center text-center text-lg-start mb-lg-5">
@@ -23,7 +23,7 @@ function BreadCrumb(_props) {
                         </div>
                     </div>
                 </div>
-            </div>  */}
+            </div> 
       {/* <!-- Hero End --> */}
     </>
   );

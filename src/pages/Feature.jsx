@@ -39,61 +39,26 @@ export default function GxpTrainig() {
   }, []);
   return (
     <>
-      <BreadCrumb page="Feature" />
+      <BreadCrumb page="Research & Development" />
 
-
-<div className=" col-lg-12 Rd-section">
-  <div className="RD-img pt-2 pb-5">
-    <img src="RD.png" alt="...." style={{ height: "400px", width: "100%", paddingTop: "40px"}} />
-  </div>
-</div>
-
-
-
-      <div className="container-fluid section2  py-5">
-        <div className="container">
+      <div className="container-fluid section2  py-5 p-5">
+      <div className="card" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
-              <div className="abouts" data-aos="fade-right" >
+              <div className="abouts">
                 <img className="img-fluid" src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-390.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 " data-aos="fade-left">Bridging Innovation and Care: Ethicalcure Pharmaceuticals' Frontier R&D</h4>
-              {/* <div className="content_container"> */}
-                {/* <ul className="list-group"
-                  ref={(ref) => listRefs.current.push(ref)}
-                >
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b> Inefficiency and Errors:</b> Manual processes are time-consuming, prone to human error, and lack
-                    real-time visibility.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b>Compliance Complexity: </b>Managing paper trails for documentation and regulations is cumbersome
-                    and error-prone, increasing compliance risks.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b>Data Silos and Limited Insights: </b>Information scattered across paper documents hinders data
-                    analysis and informed decision-making.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b>Collaboration Bottlenecks: </b>Paper-based workflows impede collaboration across departments and
-                    hinder agility.
-                  </li>
-                  <li className="list-group-item" data-aos="fade-left">
-                    <b>Scalability Issues: </b>Manual processes struggle to adapt to growth, hindering flexibility and
-                    innovation.
-                  </li>
-                </ul> */}
-              {/* </div> */}
-              <div className="containt-data fs-5">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
+              <h4 className="mb-4 p-3 ">Bridging Innovation and Care: Ethicalcure Pharmaceuticals' Frontier R&D</h4>
+              <div className="containt-data fs-5 p-3">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
             </div>
           </div>
         </div>
       </div>
 
 
-      <div className="container-fluid py-5">
+      <div className="container-fluid py-5" data-aos="zoom-in">
         <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
           <div className="row align-items-center g-5">
             <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
