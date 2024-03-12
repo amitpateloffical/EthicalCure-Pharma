@@ -62,7 +62,7 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="flip-left" data-wow-delay="0.1s">
         <div className="card p-3" data-aos="zoom-in">
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
@@ -85,7 +85,7 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5  mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+      <div className="container-fluid p-5  mb-5 mt-4" data-aos="flip-right" data-wow-delay="0.1s">
         <div className="card p-3" data-aos="zoom-in">
           <div className="slider-img g-5 align-items-center">
             <div

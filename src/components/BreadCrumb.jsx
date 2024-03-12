@@ -39,7 +39,7 @@ function BreadCrumb(_props) {
                             </nav>
                         </div>
                         <div className="col-lg-6 align-self-end text-center text-lg-end">
-                            <img className="img-fluid" src="/abcd.png" alt="" />
+                            {/* <img className="img-fluid" src="/imagebg.png" alt="" /> */}
                         </div>
                     </div>
                 </div>

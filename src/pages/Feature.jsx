@@ -1,5 +1,5 @@
 import BreadCrumb from "../components/BreadCrumb";
-import { useEffect, useRef, } from "react";
+import { useEffect, useRef } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
 
@@ -13,7 +13,7 @@ export default function GxpTrainig() {
 
   useEffect(() => {
     if (listRefs.current) {
-      ""
+      ("");
     }
     const observers = [];
 
@@ -42,37 +42,69 @@ export default function GxpTrainig() {
       <BreadCrumb page="Research & Development" />
 
       <div className="container-fluid section2  py-5 p-5">
-      <div className="card" data-aos="zoom-in">
+        <div className="card" data-aos="zoom-in">
           <div className="row g-5 align-items-center">
             <div className="col-lg-5 wow fadeIn" data-wow-delay="0.1s">
               <div className="abouts">
-                <img className="img-fluid" src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-390.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
+                <img
+                  className="img-fluid"
+                  src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-390.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"
+                />
               </div>
             </div>
             <div className="col-lg-7 wow fadeIn" data-wow-delay="0.5s">
-              <h4 className="mb-4 p-3 ">Bridging Innovation and Care: Ethicalcure Pharmaceuticals' Frontier R&D</h4>
-              <div className="containt-data fs-5 p-3">Our paramount proficiency resides in our adeptness at excelling in the development of differentiated generic products, bolstered by our specialized teams in formulation development, process chemistry, and analytical development. This prowess significantly contributes to the establishment of a formidable competitive advantage.</div>
+              <h4 className="mb-4 p-3 ">
+                Bridging Innovation and Care: Ethicalcure Pharmaceuticals'
+                Frontier R&D
+              </h4>
+              <div className="containt-data fs-5 p-3">
+                Our paramount proficiency resides in our adeptness at excelling
+                in the development of differentiated generic products, bolstered
+                by our specialized teams in formulation development, process
+                chemistry, and analytical development. This prowess
+                significantly contributes to the establishment of a formidable
+                competitive advantage.
+              </div>
             </div>
           </div>
         </div>
       </div>
 
       <div className="container-fluid py-5" data-aos="zoom-in">
-        <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
+        <div
+          className="container"
+          style={{
+            background: "#AFEEEE",
+            paddingLeft: "20px",
+            paddingTop: "30px",
+            paddingBottom: "30px",
+            borderLeft: "4px solid green",
+          }}
+        >
           <div className="row align-items-center g-5">
-            <div className="col-lg-9  wow fadeIn" data-wow-delay="0.5s" style={{fontSize: "19px", fontWeight: "500"}}>
-            Ethicalcure Pharmaceuticals' R&D team is dedicated to pioneering new treatments. We blend innovation and care, pushing the limits of medical science to create therapies that transform lives. We're rewriting healthcare with groundbreaking discoveries and a focus on patient wellbeing. Join us as we challenge conventions and lead the way to a healthier tomorrow
+            <div
+              className="col-lg-9  wow fadeIn"
+              data-wow-delay="0.5s"
+              style={{ fontSize: "19px", fontWeight: "500" }}
+            >
+              Ethicalcure Pharmaceuticals' R&D team is dedicated to pioneering
+              new treatments. We blend innovation and care, pushing the limits
+              of medical science to create therapies that transform lives. We're
+              rewriting healthcare with groundbreaking discoveries and a focus
+              on patient wellbeing. Join us as we challenge conventions and lead
+              the way to a healthier tomorrow
             </div>
             <div className="col-lg-3 wow fadeIn" data-wow-delay="0.1s">
-            <div className="h-75 w-75 " data-aos="fade-right" >
-                <img className="img-fluid  rounded" src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-390.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
+              <div className="h-75 w-75 " data-aos="fade-right">
+                <img
+                  className="img-fluid  rounded"
+                  src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-390.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph"
+                />
               </div>
             </div>
           </div>
         </div>
       </div>
-
-
 
       {/* ----------2nd Part---------- */}
       {/* <div className="container-fluid py-5">
