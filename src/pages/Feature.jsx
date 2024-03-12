@@ -57,7 +57,6 @@ export default function GxpTrainig() {
         </div>
       </div>
 
-
       <div className="container-fluid py-5" data-aos="zoom-in">
         <div className="container" style={{background:"#AFEEEE",paddingLeft:"20px", paddingTop:"30px", paddingBottom:"30px", borderLeft:"4px solid green"}}>
           <div className="row align-items-center g-5">

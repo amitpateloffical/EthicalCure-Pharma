@@ -15,17 +15,17 @@ import AfricaInstitution from "./pages/Business Areas/AfricaInstitution";
 import Footer from "./components/Footer";
 
 function App() {
-  useEffect(() => {
-    const preventRightClick = (e) => {
-      e.preventDefault();
-    };
+  // useEffect(() => {
+  //   const preventRightClick = (e) => {
+  //     e.preventDefault();
+  //   };
 
-    document.addEventListener("contextmenu", preventRightClick);
+  //   document.addEventListener("contextmenu", preventRightClick);
 
-    return () => {
-      document.removeEventListener("contextmenu", preventRightClick);
-    };
-  }, []);
+  //   return () => {
+  //     document.removeEventListener("contextmenu", preventRightClick);
+  //   };
+  // }, []);
   return (
     <>
       <BrowserRouter>

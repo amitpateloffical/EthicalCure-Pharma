@@ -85,8 +85,8 @@ h6,
 }
 
 .navbar {
-  height: 75px;
-  padding: 11px 0 !important;
+  height: 80px;
+  margin-top: -5px;
 }
 
 .navbar .navbar-nav .nav-link {
@@ -139,28 +139,15 @@ h6,
 /*** Hero Header ***/
 .hero-header {
   background-color: burlywood;
-  margin-top: -75px;
-  background-size: cover;
   background: url(../bg-hero.png) center center no-repeat;
 }
 
-.hero-header .breadcrumb-item+.breadcrumb-item::before {
-  color: var(--light);
-}
-
-/* Small screens */
 @media (max-width: 768px) {
   .hero-header {
     padding-top: 3rem;
   }
-
-  .breadcrumb {
-    flex-wrap: wrap;
-    justify-content: center;
-  }
 }
 
-/* Medium screens */
 @media (min-width: 769px) and (max-width: 1024px) {
   .hero-header {
     padding-top: 4rem;
@@ -487,7 +474,7 @@ h6,
     background-size: contain;
     background: url(../footer.png) center center no-repeat;
   }
-  
+
 
   .footer .btn.btn-social {
     width: 60px;

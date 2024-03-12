@@ -47,7 +47,7 @@ function Contact() {
                     <div className="row align-items-center d-flex">
                         <div className="col-lg-5 wow fadeIn" data-wow-delay="0.2s">
                             <div className="abouts" data-aos="fade-right">
-                                <img className="img-fluid" src="/phone.jpeg" />
+                                <img className="img-fluid" src="/contact1.jpeg" />
                             </div>
                         </div>
                         <div className="container-fluid py-5 col-lg-7">

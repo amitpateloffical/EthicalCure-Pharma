@@ -5,5 +5,48 @@
 @media only screen and (max-width: 768px) {
     .position-top {
         width: 600;
+        height: 500px;
+    }
+}
+
+.background-slider-1 {
+    background-image: url("medicaltool.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 80vh;
+    width: 100%;
+}
+
+.background-slider-2 {
+    background-image: url("slider12.jpg");
+    height: 80vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+
+}
+
+@media screen and (max-width: 300px) {
+    .background-slider-1 {
+        height: 60vh;
+        object-fit: cover;
+        width: 50%;
+
+    }
+
+    .background-slider-2 {
+        height: 60vh;
+        object-fit: cover;
+        width: 50%;
+
+    }
+}
+
+@media screen and (min-width: 577px) and (max-width: 992px) {
+
+    .background-slider-1,
+    .background-slider-2 {
+        height: 60vh;
+        width: 50%;
     }
 }

@@ -1,82 +1,55 @@
-.dropdown {
-  position: relative;
-  display: inline-block;
+.nav_ul li {
+  padding: 0 0.6rem;
 }
 
-.dropdown-content {
-  display: none;
+.nav_ul a {
+  font-size: 1.05rem;
+  color: #000 !important;
+  font-weight: 400;
+  letter-spacing: 0.5px;
+}
+
+.btn1 {
+  border: 0;
+  padding: 0.5rem 1.8rem;
+  color: #fff;
+  background-color: #01193c;
+}
+
+#flexbox-logo {
+  display: grid;
+  grid-template-columns: 2fr 10fr;
+  background-color: white;
+}
+
+.logoimg img {
+  height: 100px;
+  padding: 15px;
+}
+
+.navbar-brand {
+  /* height: 80px; */
+}
+
+#responsive-headerdrop {
   position: absolute;
-  background-color: #f4efef;
-  min-width: 400px; /* Default width */
-  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
-  padding: 12px 16px;
-  z-index: 1;
-}
-
-.dropdown:hover .dropdown-content {
-  display: block;
-}
-
-.dropdown-content a {
-  display: block;
-  color: black;
-  list-style-type: disc;
-}
-
-.dropdown-content a:hover {
-  text-decoration: underline;
-}
-
-.dropdown-content ul li {
-  margin: 0;
-  padding: 4.5px;
-}
-
-.dropdown-content ul li:hover {
-  color: rgb(222, 65, 65);
-}
-
-.logo123 {
-  font-size: 22px;
-  font-weight: 700;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  font-style: italic;
-  color: black;
-}
-
-.heading-about {
-  font-size: 28px;
-  font-family: Verdana, Geneva, Tahoma, sans-serif;
-  color: blueviolet;
-  margin-bottom: 20px;
-}
-
-.home-para {
-  font-size: 18px;
-}
-
-.a-index {
+  right: 0;
+  margin-top: 80px;
   z-index: 1000;
+  background-color: rgb(215, 237, 251);
+  border-radius: 10px;
+  width: 250px;
+  color: #000;
 }
 
-
-/* Small screens (up to 767px) */
-@media only screen and (max-width: 767px) {
-  .dropdown-content {
-    min-width: 100px; /* Adjust width for small screens */
-  }
+#responsive-headerdrop .responsive-item:hover {
+  background-color: #20314a;
+  border-radius: 5px;
+  color: white;
+  padding: 5 px;
 }
 
-/* Medium screens (768px to 1023px) */
-@media only screen and (min-width: 768px) and (max-width: 1023px) {
-  .dropdown-content {
-    min-width: 500px; /* Adjust width for medium screens */
-  }
-}
-
-/* Large screens (1024px and above) */
-@media only screen and (min-width: 1024px) {
-  .dropdown-content {
-    min-width: 700px; /* Adjust width for large screens */
-  }
+.header-item-flex {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
 }

@@ -5,6 +5,7 @@ import MySlider from "../components/MySlider";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
+import Scrollhome from "../components/Scroller/Scrollhome";
 function Home() {
 
   useEffect(() => {
@@ -16,7 +17,7 @@ function Home() {
       <div className="slider-container ">
         <MySlider />
       </div>
-      <div className="container-fluid p-5 mb-5 mt-4">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
         <div className="card p-3 b-none" data-aos="zoom-in">
           <div className=" g-5 align-items-center slider-img">
             <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="">
@@ -37,7 +38,7 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5 mb-5 mt-4">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
         <div className="card p-3" data-aos="zoom-in">
           <div className="slider-img g-5 align-items-center">
             <div
@@ -60,8 +61,8 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5 mb-5 mt-4">
-      <div className="card p-3"  data-aos="zoom-in">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+        <div className="card p-3" data-aos="zoom-in">
           <div className=" g-5 align-items-center slider-img">
             <div className="  wow fadeIn" data-wow-delay="0.1s" data-aos="fade-right">
               <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="fade-right">
@@ -83,8 +84,8 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5  mb-5 mt-4">
-      <div className="card p-3"  data-aos="zoom-in">
+      <div className="container-fluid p-5  mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+        <div className="card p-3" data-aos="zoom-in">
           <div className="slider-img g-5 align-items-center">
             <div
               className="col-lg-6 wow fadeIn"
