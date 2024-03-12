@@ -5,22 +5,23 @@ import MySlider from "../components/MySlider";
 import { useEffect } from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import Scrollhome from "../components/Scroller/Scrollhome";
+
 function Home() {
 
   useEffect(() => {
     AOS.init({ duration: 1400 });
     AOS.refresh();
   }, []);
+
   return (
     <>
       <div className="slider-container ">
         <MySlider />
       </div>
-      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="flip-left" data-wow-delay="0.1s">
         <div className="card p-3 b-none" data-aos="zoom-in">
           <div className=" g-5 align-items-center slider-img">
-            <div className="wow fadeIn abouts" data-wow-delay="0.1s" data-aos="">
+            <div className="wow fadeIn abouts" data-wow-delay="0.1s">
               <img className="img-fluid" src="https://img.freepik.com/free-photo/pharmacy-industry-woman-worker-protective-clothing-operating-production-tablets-sterile-working-conditions_645730-408.jpg?size=626&ext=jpg&ga=GA1.1.1884802103.1674757283&semt=sph" />
             </div>
             <div
@@ -38,7 +39,7 @@ function Home() {
       </div>
 
 
-      <div className="container-fluid p-5 mb-5 mt-4" data-aos="zoom-in" data-wow-delay="0.1s">
+      <div className="container-fluid p-5 mb-5 mt-4" data-aos="flip-right" data-wow-delay="0.1s">
         <div className="card p-3" data-aos="zoom-in">
           <div className="slider-img g-5 align-items-center">
             <div

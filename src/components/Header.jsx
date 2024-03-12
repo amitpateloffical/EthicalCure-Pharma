@@ -29,7 +29,7 @@ function Header() {
               <Link className="m-2 responsive-item" to="/about">About Us</Link>
               <Link className="m-2 responsive-item" to="/contact">Contact Us</Link>
             </div>
-          </div>
+           </div>
         )}
       </div>
       <nav className="navbar navbar-expand-lg navbar-light">
@@ -39,7 +39,7 @@ function Header() {
               <img src="/ethicalcurelogo-removebg-preview.png" width="70" height="70" className="d-inline-block align-top" alt="" />
             </Link>
           </div>
-          <div className="collapse navbar-collapse" id="navbarSupportedContent">
+          <div className="collapse navbar-collapse" id="">
             <ul className="navbar-nav mr-auto">
               <li className="nav-item active">
                 <Link className="nav-link" to="/">Home <span className="sr-only">(current)</span></Link>
