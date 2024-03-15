@@ -9,7 +9,6 @@ const Manufacturing = () => {
 
     useEffect(() => {
         AOS.init({ duration: 1400 });
-        // AOS.refresh();
     }, []);
 
     useEffect(() => {
