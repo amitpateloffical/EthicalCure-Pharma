@@ -127,15 +127,11 @@ function Footer() {
                 <img src="location.avif" height="60" alt="" loading="lazy" />
               </div>
               <p className="text-center">
-                <b>Europe Office:</b> <br />
-                Ellisa Tower, EH10 4BF 44/46 MORNINGSIDE ROAD, EDINBURGH
+                <b>Address:</b> <br />
+                250 Meters From Railway Station, Freeganj Rd, Ratlam, Madhya Pradesh
               </p>
-              <p className="text-center">
-                <b>North America Office:</b> <br />
-                North Avenue, Lincoln Square, 60625, Chicago
-              </p>
-              <div className="text-center">+91-8821836528</div>
-              <div className="text-center">info@ethicalcurepharma.com</div>
+             
+              <a href="" className="email text-center">info@Ethicalcurepharma.in</a>
             </div>
             {/* Repeat similar structures for other columns */}
           </div>

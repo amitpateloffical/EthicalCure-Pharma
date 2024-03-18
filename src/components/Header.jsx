@@ -63,7 +63,7 @@ function Header() {
                   Home <span className="sr-only">(current)</span>
                 </Link>
               </li>
-              <li className="nav-item dropdown">
+              {/* <li className="nav-item dropdown">
                 <Link
                   className="nav-link dropdown-toggle"
                   to="#"
@@ -73,7 +73,7 @@ function Header() {
                   aria-haspopup="true"
                   aria-expanded="false"
                 >
-                  Business Area
+                 Domain
                 </Link>
                 <div className="dropdown-menu" aria-labelledby="navbarDropdown">
                   <Link className="dropdown-item" to="/businessareas">
@@ -95,6 +95,16 @@ function Header() {
                     Something else here
                   </Link>
                 </div>
+              </li> */}
+              <li className="nav-item">
+                <Link
+                  to="/businessareas"
+                  className="nav-link"
+                  tabindex="-1"
+                  aria-disabled="true"
+                >
+                 Domain
+                </Link>
               </li>
               <li className="nav-item">
                 <Link
@@ -103,7 +113,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Manufacturing
+                 Processing
                 </Link>
               </li>
               <li className="nav-item">
@@ -113,7 +123,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  R &amp; D
+                 Experimentation
                 </Link>
               </li>
               <li className="nav-item">
@@ -123,7 +133,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  About Us
+                 Background
                 </Link>
               </li>
               <li className="nav-item">
@@ -133,7 +143,7 @@ function Header() {
                   tabindex="-1"
                   aria-disabled="true"
                 >
-                  Contact Us
+                  Send a Message
                 </Link>
               </li>
             </ul>
