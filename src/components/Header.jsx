@@ -15,28 +15,32 @@ function Header() {
     }
   };
 
+  const isToggleOff=()=>{
+setIsButtonClicked(!isButtonClicked)
+  }
+
   return (
     <>
       <div id="responsive-headerdrop">
         {isButtonClicked && (
           <div className="nav-item dropdown">
             <div className="row m-1">
-              <Link className="m-2 responsive-item" to="/">
+              <Link  onClick={isToggleOff} className="m-2 responsive-item" to="/">
                 Home
               </Link>
-              <Link className="m-2 responsive-item" to="/businessareas">
+              <Link onClick={isToggleOff} className="m-2 responsive-item" to="/businessareas">
                 Business Area
               </Link>
-              <Link className="m-2 responsive-item" to="/manufacturing">
+              <Link onClick={isToggleOff} className="m-2 responsive-item" to="/manufacturing">
                 Manufacturing
               </Link>
-              <Link className="m-2 responsive-item" to="/features">
+              <Link onClick={isToggleOff} className="m-2 responsive-item" to="/features">
                 Research &amp; Development
               </Link>
-              <Link className="m-2 responsive-item" to="/about">
+              <Link onClick={isToggleOff} className="m-2 responsive-item" to="/about">
                 About Us
               </Link>
-              <Link className="m-2 responsive-item" to="/contact">
+              <Link onClick={isToggleOff} className="m-2 responsive-item" to="/contact">
                 Contact Us
               </Link>
             </div>
@@ -45,8 +49,8 @@ function Header() {
       </div>
       <nav className="navbar navbar-expand-lg navbar-light">
         <div className="header-item-flex">
-          <div>
-            <Link className="navbar-brand" to="/">
+        <div className="d-flex justify-end">
+            <Link className="navbar-brand d-flex" to="/">
               <img
                 src="/ethicalcurelogo-removebg-preview.png"
                 width="70"
@@ -148,6 +152,7 @@ function Header() {
               </li>
             </ul>
           </div>
+        
         </div>
         <button
           className="navbar-toggler"

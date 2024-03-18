@@ -10,7 +10,7 @@
 }
 
 .background-slider-1 {
-    background-image: url("medicaltool.jpg");
+    background-image: url("/medicaltool.png");
     background-repeat: no-repeat;
     background-size: cover;
     height: 80vh;
@@ -18,7 +18,7 @@
 }
 
 .background-slider-2 {
-    background-image: url("slider12.jpg");
+    background-image: url("/slider12.png");
     height: 80vh;
     background-repeat: no-repeat;
     background-size: cover;
